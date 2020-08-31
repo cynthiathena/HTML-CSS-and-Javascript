@@ -3,4 +3,4 @@
 A webpage which consists of biodata
 
 ### How to open ###
-open profile.html from your browser
+open profile.html from browser
