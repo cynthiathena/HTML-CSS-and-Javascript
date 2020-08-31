@@ -133,10 +133,27 @@ li a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.section-profile{
+.section-profile {
     position: relative;
-    background-color: rgb(103, 117, 138);
     display: none;
+    background-color: rgb(103, 117, 138);
+}
+
+.a{
+    background-color: rgb(103, 117, 138);
+}
+
+.b{
+    background-color: rgb(189, 112, 112);
+}
+
+.c{
+    background-color: rgb(97, 151, 133);
+}
+
+.d{
+    background-color: rgb(161, 129, 87);
+
 }
 
 .univ-img{
