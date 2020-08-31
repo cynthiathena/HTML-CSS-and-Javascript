@@ -1,0 +1,215 @@
+body {
+    background-color: antiquewhite;
+}
+
+.welcome {
+    color: black;
+    font-family:"Lucida Console";
+    font-size: 80;
+    position: absolute;
+    top: 10%;
+    left: 30px;
+}
+
+.arrow {
+    display: block;
+    width : 50px;
+    height: 50px;
+    position: absolute;
+    top: 43%;
+    right: 500px;
+    transition: all 0.4s ease;
+}
+
+.arrow:hover{
+    transform: rotate(90deg);
+}
+
+div.container-1{
+    height: 250px;
+    width:1000px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-self {
+    display:block;
+    width:450px;
+    height:450px;
+    object-fit:cover;
+    border-radius:50%;  
+    position: absolute;
+    right: 100px;
+    top: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body, html, .main {
+    height: 100%;
+}
+  
+section {
+    min-height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to beige on hover */
+.active, li a:hover {
+    background-color: beige;
+}
+
+.container-home{
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 360px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-home{
+    width: 250px;
+    height: 270px;
+    position: absolute;
+    left: 10px;
+    top:3%;
+    border-radius: 50%;
+}
+
+.img-contact{
+    width: 250px;
+    height: 270px;
+    position: absolute;
+    left: 20px;
+    top:5%;
+    border-radius: 50%;
+}
+
+.filling-home, .filling-contact{
+    position: absolute;
+    left: 300px;
+    font-size: 20px;
+    font-style: monospace;
+}
+
+.filling-contact{
+    top: 70%;
+    left: 20px;
+}
+
+.container-contact{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 570px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-profile{
+    position: relative;
+    background-color: rgb(103, 117, 138);
+    display: none;
+}
+
+.univ-img{
+    width: 30px;
+    height: 30px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 16px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.prev:hover, .next:hover{
+    background-color: white;
+}
+
+.next {
+    right: 0%;
+}
+
+.slideshow-container{
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    margin: auto;
+}
+
+.slides{
+    display: none;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.container-project-1, .container-project-2, .container-project-3{
+    height: 50px;
+    width: 700px;
+    background-color: white;
+    position: absolute;
+    left: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-project-1{
+    top: 20%;
+}
+
+.container-project-2{
+    top: 40%;
+}
+
+.container-project-3{
+    top: 60%;
+}
+
+.filling-project{
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 0%;
+}

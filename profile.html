@@ -1,0 +1,156 @@
+<html>
+<title>
+    Profile page 
+</title>
+<script src="myscript.js"></script>
+    <head>
+        <link rel="stylesheet" href="profile_style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container-1">
+                <h1 class="welcome">Welcome!</h1>
+                <a href="#section2" class="scrollTo" onclick="showMenu(0)">
+                <img src="https://image.flaticon.com/icons/svg/860/860828.svg" class="arrow">
+                </a>
+            </div>
+
+            <div class="cover-image">
+                <img src="https://cdn2.vectorstock.com/i/1000x1000/32/71/cartoon-young-girl-icon-vector-12133271.jpg" class="image-self">
+            </div>
+        </div>
+
+        <div class="section-main" id ="section2">
+        <section>
+            <div class="navbar"> 
+                <ul>
+                <li class="contact" id="contact"><a a href="#section2" onclick="return showMenu(3);">Contact</a></li>
+                <li class="projects" id="projects"><a href="#section2" onclick="return showMenu(2);">Projects</a></li>
+                <li class="experiences" id="experiences"><a href="#section2" onclick="return showMenu(1);">Experiences</a></li>
+                <li class="active" id="home"><a href="#section2" onclick="return showMenu(0);">Home</a></li>
+                <ul>
+            </div>
+
+        <div class="section-profile">
+        <section>  
+        <div class="title">
+            Profile
+        </div>
+            <div class="container-home">
+                <div class="img-home">
+                    <img src="pictures/self.jpg" class="img-home">
+                </div>
+                <div class="filling-home">
+                    <p>
+                    Cynthia Athena Mahadewi Subroto<br><br>
+                    <img src="https://image.flaticon.com/icons/svg/590/590474.svg" class="univ-img"> July 13th, 2000<br><br>
+                    <img src="https://image.flaticon.com/icons/svg/684/684809.svg" class="univ-img"> Institut Teknologi Bandung<br><br>
+                    <img src="https://image.flaticon.com/icons/svg/3174/3174914.svg" class="univ-img"> Teknik Informatika<br><br>
+                    <img src="https://image.flaticon.com/icons/svg/2456/2456195.svg" class="univ-img"> 2018-2022 expected (Undergraduate)<br><br>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        </div>
+
+
+        <div class="section-profile">
+        <section>
+
+            <a class="next" onclick="changeSlides(1)">
+            <img src="https://image.flaticon.com/icons/svg/566/566012.svg">
+            </a>
+            <a class="prev" onclick="changeSlides(-1)">
+            <img src="https://image.flaticon.com/icons/svg/566/566011.svg">
+            </a> 
+
+            <div class="slideshow-container">
+            <h1 style="color: white; text-align: center; font-size:50px;">
+            Experiences!
+            </h1>
+            <div class="Slides">
+                <img src="pictures/arkav.jpg" style="width:100%"><br><br>
+                <div class="exp" style="text-align:center">
+                <b>Arkavidia Talk Committee (Arkavidia HMIF ITB 6.0 2020)</b><br>
+                Working in an event team of 13 people in creating a seminar and talkshow for undergraduate students
+and working with professional speakers with IT background from different kinds of tech company.
+                </div>
+            </div>
+
+            <div class="Slides">
+                <img src="pictures/ieee.jpg" style="width:100%"><br><br>
+                <div class="exp" style="text-align:center">
+                <b>Innovation Contest IEEE FUSION 2019 Staff (IEEE ITB SB)</b><br>
+                Working in team of 10 people in creating an innovation competition for undergraduate students to build a technology-based innovation to solve a humanity problem.
+                </div>
+            </div>
+
+            <div class="Slides">
+                <img src="pictures/intrakampus.jpg" style="width:100%"><br><br>
+                <div class="exp" style="text-align:center">
+                <b>Deputy head of Intracampus Division 2020/2021 (HMIF ITB)</b><br>
+                Building a connection and transferring information between the organization of computer science
+student and other organization in ITB.
+                </div>
+            </div>
+
+            <div class="Slides">
+                <img src="pictures/uro.jpg" style="width:100%"><br><br>
+                <div class="exp" style="text-align:center;">
+                <b>Programming Division Unit Robotika ITB</b><br>
+                Working in a team of 5 people in a programming team and building the exact algorithm in C++ language that is implemented for a legged robot to find fire in a shortest path and put out the fire as fast as possible.
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <div class="section-profile">
+        <section>  
+        <div class="title">
+            Projects
+        </div>
+                <div class="container-project-1">
+                    <div class="filling-project">
+                        <h1 style="color:black">1. Web-based application for extraction of information (2020) </h1>
+                        Finding a pattern in a text with string matching algorithm (Boyer-Moore, Knuth-Morris-Pratt, and Regex) using python language and flask (with HTML).
+                    </div>
+                </div>
+                <div class="container-project-2">
+                    <div class="filling-project">
+                        <h1 style="color:black">2. Software with python and SQL (2020) </h1>
+                        Building a software that can be used for a karaoke management using python language and SQL<br>
+                    </div>
+                </div>
+                <div class="container-project-3">
+                    <div class="filling-project">
+                        <h1 style="color:black">3. Bot game with Greedy Algorithm (2020) </h1>
+                        Implementing greedy algorithm for the player to win a game using Java language<br>
+                    </div>
+                </div>
+        </section>
+        </div>
+
+        <div class="section-profile">
+        <section>  
+        <div class="title">
+            Contact me
+        </div>
+            <div class="container-contact">
+                <div class="img-contact">
+                    <img src="https://image.flaticon.com/icons/svg/1078/1078011.svg">
+                </div>
+                <div class="filling-contact">
+                    <img src="https://image.flaticon.com/icons/svg/839/839887.svg" class="univ-img"> cynthiathena00@gmail.com<br><br>
+                    <img src="https://image.flaticon.com/icons/svg/2947/2947986.svg" class="univ-img"> 081299081831<br><br>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        </div>
+
+        </div>
+
+    </body>
+</html>
